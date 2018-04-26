@@ -1,0 +1,38 @@
+// Dota Units File
+
+#base "units/bosses/enigma.txt"
+
+"DOTAUnits"
+{
+
+    "Version" "1"
+
+    // ------------------------------------------------------------------------ //
+    // BAREBONES
+    // ------------------------------------------------------------------------ //
+
+    "dummy_vision2500"
+    {
+        "BaseClass"					"npc_dota_creature"
+        "AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+        "VisionDaytimeRange"		"2500"
+        "VisionNighttimeRange"		"2500"
+        "UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+        "MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+        "Ability1"					"dummy_passive_fly"
+        "Ability2"					"true_sight"
+    }
+
+    "dummy_vision500"
+    {
+        "BaseClass"					"npc_dota_creature"
+        "AttackCapabilities"		"DOTA_UNIT_CAP_NO_ATTACK"
+        "VisionDaytimeRange"		"500"
+        "VisionNighttimeRange"		"500"
+        "UnitRelationshipClass"		"DOTA_NPC_UNIT_RELATIONSHIP_TYPE_WARD"
+        "MovementCapabilities"		"DOTA_UNIT_CAP_MOVE_NONE"
+        "Ability1"					"dummy_passive_fly"
+        "Ability2"					"true_sight"
+    }
+
+}
